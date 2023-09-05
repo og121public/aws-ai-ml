@@ -3,7 +3,7 @@
 1. Data Engineering
 1. Exploratory Data Analysis
 1. Modeling
-1. Machine Learning Implementation and Operations
+1. AI/ML Implementation and Operations
 
 ## 1: Data Engineering
 
