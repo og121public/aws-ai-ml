@@ -1,10 +1,10 @@
 # AWS AI/ML domains:
 
-#### 1. Data Engineering
-#### 2. Exploratory Data Analysis
-#### 3. Modeling
-#### 4. AI/ML Implementation and Operations
-
+#### 1: Data Engineering
+#### 2: Exploratory Data Analysis
+#### 3: Modeling
+#### 4: AI/ML Implementation and Operations
+-   ---------------
 ## 1: Data Engineering
 
 ### 1.1: Create data repositories for ML.
