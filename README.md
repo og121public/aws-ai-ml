@@ -1,20 +1,20 @@
 # AWS AI/ML domains:
 
-1. Data Engineering
-1. Exploratory Data Analysis
-1. Modeling
-1. AI/ML Implementation and Operations
+#### 1. Data Engineering
+#### 2. Exploratory Data Analysis
+#### 3. Modeling
+#### 4. AI/ML Implementation and Operations
 
 ## 1: Data Engineering
 
-1.1: Create data repositories for ML.
+### 1.1: Create data repositories for ML.
 
 - Identify data sources (for example, content and location, primary
     sources such as user data).
 - Determine storage mediums (for example, databases, Amazon S3, Amazon
     Elastic File System \[Amazon EFS\], Amazon Elastic Block Store \[Amazon EBS\]).
 
-1.2: Identify and implement a data ingestion solution.
+### 1.2: Identify and implement a data ingestion solution.
 
 - Identify data job styles and job types (for example, batch load, streaming).
 - Orchestrate data ingestion pipelines (batch-based ML workloads and
@@ -26,14 +26,14 @@
   - AWS Glue
 - Schedule jobs.
 
-1.3: Identify and implement a data transformation solution.
+### 1.3: Identify and implement a data transformation solution.
 
 - Transform data in transit (ETL, AWS Glue, Amazon EMR, AWS Batch).
 - Handle ML-specific data by using MapReduce (for example, Apache Hadoop, Apache Spark, Apache Hive).
 
 ## 2: Exploratory Data Analysis
 
-2.1: Sanitize and prepare data for modeling.
+### 2.1: Sanitize and prepare data for modeling.
 
 - Identify and handle missing data, corrupt data, and stop words.
 - Format, normalize, augment, and scale data.
@@ -41,7 +41,7 @@
   - Identify mitigation strategies.
   - Use data labelling tools (for example, Amazon Mechanical Turk).
 
-2.2: Perform feature engineering.
+### 2.2: Perform feature engineering.
 
 - Identify and extract features from datasets, including from data
  sources such as text, speech, image, public datasets.
@@ -49,7 +49,7 @@
     binning, tokenization, outliers, synthetic features, one-hot
     encoding, reducing dimenionality of data).
 
-2.3: Analyze and visualize data for ML.
+### 2.3: Analyze and visualize data for ML.
 
 - Create graphs (for example, scatter plots, time series, histograms,
     box plots).
@@ -60,20 +60,20 @@
 
 ## 3: Modeling
 
-3.1: Frame business problems as ML problems.
+### 3.1: Frame business problems as ML problems.
 
 - Determine when to use and when not to use ML.
 - Know the difference between supervised and unsupervised learning.
 - Select from among classification, regression, forecasting,
     clustering, and recommendation models.
 
-3.2: Select the appropriate model(s) for a given ML problem.
+### 3.2: Select the appropriate model(s) for a given ML problem.
 
 - XGBoost, logistic regression, k-means, linear regression, decision
     trees, random forests, RNN, CNN, ensemble, transfer learning
 - Express the intuition behind models.
 
-3.3: Train ML models.
+### 3.3: Train ML models.
 
 - Split data between training and validation (for example, cross validation).
 - Understand optimization techniques for ML training (for example,
@@ -84,7 +84,7 @@
 - Update and retrain models.
   - Batch or real-time/online
 
-3.4: Perform hyperparameter optimization.
+### 3.4: Perform hyperparameter optimization.
 
 - Perform regularization.
   - Drop out
@@ -96,7 +96,7 @@
 - Understand tree-based models (number of trees, number of levels).
 - Understand linear models (learning rate).
 
-3.5: Evaluate ML models.
+### 3.5: Evaluate ML models.
 
 - Avoid overfitting or underfitting.
   - Detect and handle bias and variance.
@@ -109,7 +109,7 @@
 - Perform cross validation.
 
 ## 4: AI/ML Implementation and Operations
-4.1: Build ML solutions for performance, availability, scalability,
+### 4.1: Build ML solutions for performance, availability, scalability,
 resiliency, and fault tolerance.
 
 - Log and monitor AWS environments.
@@ -123,8 +123,7 @@ resiliency, and fault tolerance.
 - Perform load balancing.
 - Follow AWS best practices.
 
-4.2: Recommend and implement the appropriate ML services and features
-for a given problem.
+### 4.2: Recommend and implement the appropriate ML services and features for a given problem.
 
 - ML on AWS (application services)
   - Amazon Polly
@@ -137,7 +136,7 @@ for a given problem.
     considerations.
   - Use Spot Instances to train deep learning models by using AWS Batch.
 
-4.3: Apply basic AWS security practices to ML solutions.
+### 4.3: Apply basic AWS security practices to ML solutions.
 
 - AWS Identity and Access Management (IAM)
 - S3 bucket policies
@@ -145,7 +144,7 @@ for a given problem.
 - VPCs
 - Encryption and anonymization
 
-4.4: Deploy and operationalize ML solutions.
+### 4.4: Deploy and operationalize ML solutions.
 
 - Expose endpoints and interact with them.
 - Understand ML models.
@@ -155,7 +154,7 @@ for a given problem.
   - Detect and mitigate drops in performance.
   - Monitor performance of the model.
 
-4.5: Related technologies:
+### 4.5: Related technologies:
 
 - Ingestion/collection
 - Processing/ETL
@@ -173,7 +172,7 @@ The following list contains AWS services and features that are in scope
 for the exam. This list is non-exhaustive and is subject to change. AWS
 offerings appear in categories that align with the offerings' primary functions:
 
-Analytics:
+#### Analytics:
 
 - Amazon Athena
 - Amazon EMR
@@ -184,28 +183,28 @@ Analytics:
 - Amazon Kinesis Data Streams
 - Amazon QuickSight
 
-Compute:
+#### Compute:
 
 - AWS Batch
 - Amazon EC2
 - AWS Lambda
 
-Containers:
+#### Containers:
 
 - Amazon Elastic Container Registry (Amazon ECR)
 - Amazon Elastic Container Service (Amazon ECS)
 - Amazon Elastic Kubernetes Service (Amazon EKS)
 - AWS Fargate
 
-Database:
+#### Database:
 
 - Amazon Redshift
 
-Internet of Things:
+#### Internet of Things:
 
 - AWS IoT Greengrass
 
-Machine Learning:
+#### Machine Learning:
 
 - Amazon Comprehend
 - AWS Deep Learning AMIs (DLAMI)
@@ -221,7 +220,7 @@ Machine Learning:
 - Amazon Transcribe
 - Amazon Translate
 
-Management and Governance:
+#### Management and Governance:
 
 - AWS CloudTrail
 - Amazon CloudWatch
@@ -230,7 +229,7 @@ Networking and Content Delivery:
 Security, Identity, and Compliance:
 - AWS Identity and Access Management (IAM)
 
-Storage:
+#### Storage:
 - Amazon Elastic Block Store (Amazon EBS)
 - Amazon Elastic File System (Amazon EFS)
 - Amazon FSx
