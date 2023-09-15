@@ -166,7 +166,7 @@ resiliency, and fault tolerance.
 - Language relevant to ML (for example, Python, Java, Scala, R, SQL)
 - Notebooks and integrated development environments (IDEs)
 
-## IN-SCOPE AWS services
+## IN-SCOPE AWS services and features
 
 The following list contains AWS services and features that are in scope
 for the exam. This list is non-exhaustive and is subject to change. AWS
